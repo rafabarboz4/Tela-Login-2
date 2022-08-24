@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.conteudo {
+    width: 300px;
+}
+.conteudo h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+.conteudo a{
+    color: #4461F2;
+    text-decoration: none;
+}
+.imagem{
+    width: 450px;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.inputs{
+    padding: 10px;
+    background-color: #EAF0F7;
+    border: none;
+    margin: 8px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+}
+.esquece-senha{
+    color: #C7C7C7;
+    font-size: 12px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 30px;
+    width: 100px;
+}
+.cadastra-se{
+    padding: 10px 40px;
+    background-color: #4461F2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.login__icons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+.login__icons img {
+    width: 20px;
+}
+.icons__button {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.login__icons .icons__button:nth-child(1) {
+    background-color: #000000;
+}
+  
+.login__icons .icons__button:nth-child(2) {
+    background-color: #1B77F3;
+}
+
+.login__icons .icons__button:nth-child(3) {
+    background-color: #ECECEC;
+}

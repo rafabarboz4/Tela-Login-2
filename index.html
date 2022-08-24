@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de login</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Mukta', sans-serif;
+        }
+        body{
+            background-color: #f6f6f6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="itens">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        <div id="itens2">
+            <select name="idiomas" id="idiomas">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+            </select>
+            <a href="">Sign in</a>
+            <button>Register</button>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h2>Sign In to <br>Recharge Direct</h2>
+            <p>If you dont't an account <br>you can <a href="">Register here!</a></p>
+        </div>
+        <div class="imagem">
+            <img src="assents/imagem1.png" width="100%">
+        </div>
+        <form id="login">
+            <input type="text" class="inputs" id="email" placeholder="Enter email">
+            <input type="password" class="inputs" id="password" placeholder="Enter password">
+            <span class="esquece-senha">Recover Password ?</span>
+            <input type="button" value="Sign In" class="cadastra-se">
+            <div class="login__icons">
+                <button type="button" class="icons__button">
+                  <img src="assents/apple-icon.png">
+                </button>
+        
+                <button type="button" class="icons__button">
+                  <img src="assents/facebook-icon.png">
+                </button>
+        
+                <button type="button" class="icons__button">
+                  <img src="assents/google-icon.png">
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

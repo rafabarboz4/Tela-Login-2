@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&display=swap');
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+#itens ul{
+    display: flex;
+}
+#itens li{
+    padding: 20px;
+    list-style: none;
+}
+#itens a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+#itens2{
+    margin: 0px 50px;
+}
+#itens2 select{
+    border: none;
+    background-color: #f6f6f6;
+    font-weight: 500;
+    color: black;
+    margin: 30px;
+}
+#itens2 a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #4461F2;
+    margin: 30px;
+    border-bottom: 2px solid  #4461F2;
+}
+#itens2 button{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #4461F2;
+    font-weight: bold;
+    padding: 5px 15px;
+}
